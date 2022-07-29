@@ -8,9 +8,23 @@
 import SwiftUI
 import RealityKit
 
-struct ContentView : View {
+struct NightVison : View {
     var body: some View {
-        return ARViewContainer().edgesIgnoringSafeArea(.all)
+        return ZStack{
+            ARViewContainer().edgesIgnoringSafeArea(.all)
+            Rectangle()
+                .background(Rectangle().foregroundColor(Color.green))
+                .opacity(0.3)
+                .ignoresSafeArea()
+            VStack{
+                Spacer()
+                Button("Change Power") {
+                    
+                }
+            }
+                
+
+        }
     }
 }
 
@@ -19,13 +33,6 @@ struct ARViewContainer: UIViewRepresentable {
     func makeUIView(context: Context) -> ARView {
         
         let arView = ARView(frame: .zero)
-        
-        // Load the "Box" scene from the "Experience" Reality File
-        let boxAnchor = try! Experience.loadBox()
-        
-        // Add the box anchor to the scene
-        arView.scene.anchors.append(boxAnchor)
-        
         return arView
         
     }
@@ -37,7 +44,7 @@ struct ARViewContainer: UIViewRepresentable {
 #if DEBUG
 struct ContentView_Previews : PreviewProvider {
     static var previews: some View {
-        ContentView()
+        NightVison()
     }
 }
 #endif

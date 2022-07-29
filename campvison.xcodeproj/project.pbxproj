@@ -15,6 +15,7 @@
 		432824F728949AC600C99285 /* campvisonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432824F628949AC600C99285 /* campvisonTests.swift */; };
 		4328250128949AC600C99285 /* campvisonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4328250028949AC600C99285 /* campvisonUITests.swift */; };
 		4328250328949AC600C99285 /* campvisonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4328250228949AC600C99285 /* campvisonUITestsLaunchTests.swift */; };
+		432825122894A0E500C99285 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432825112894A0E500C99285 /* HomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		432824FC28949AC600C99285 /* campvisonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = campvisonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4328250028949AC600C99285 /* campvisonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = campvisonUITests.swift; sourceTree = "<group>"; };
 		4328250228949AC600C99285 /* campvisonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = campvisonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		432825112894A0E500C99285 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				432824E328949AC500C99285 /* AppDelegate.swift */,
+				432825112894A0E500C99285 /* HomePage.swift */,
 				432824E528949AC500C99285 /* ContentView.swift */,
 				432824E728949AC500C99285 /* Experience.rcproject */,
 				432824E928949AC600C99285 /* Assets.xcassets */,
@@ -263,6 +266,7 @@
 				432824E628949AC500C99285 /* ContentView.swift in Sources */,
 				432824E428949AC500C99285 /* AppDelegate.swift in Sources */,
 				432824E828949AC500C99285 /* Experience.rcproject in Sources */,
+				432825122894A0E500C99285 /* HomePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
