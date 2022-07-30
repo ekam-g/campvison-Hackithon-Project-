@@ -16,6 +16,7 @@
 		4328250128949AC600C99285 /* campvisonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4328250028949AC600C99285 /* campvisonUITests.swift */; };
 		4328250328949AC600C99285 /* campvisonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4328250228949AC600C99285 /* campvisonUITestsLaunchTests.swift */; };
 		432825122894A0E500C99285 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432825112894A0E500C99285 /* HomePage.swift */; };
+		432825142894BA2000C99285 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 432825132894BA2000C99285 /* images.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		4328250028949AC600C99285 /* campvisonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = campvisonUITests.swift; sourceTree = "<group>"; };
 		4328250228949AC600C99285 /* campvisonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = campvisonUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		432825112894A0E500C99285 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		432825132894BA2000C99285 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		432824E228949AC500C99285 /* campvison */ = {
 			isa = PBXGroup;
 			children = (
+				432825132894BA2000C99285 /* images.png */,
 				432824E328949AC500C99285 /* AppDelegate.swift */,
 				432825112894A0E500C99285 /* HomePage.swift */,
 				432824E528949AC500C99285 /* ContentView.swift */,
@@ -237,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				432825142894BA2000C99285 /* images.png in Resources */,
 				432824ED28949AC600C99285 /* Preview Assets.xcassets in Resources */,
 				432824EA28949AC600C99285 /* Assets.xcassets in Resources */,
 			);

@@ -8,22 +8,53 @@
 import SwiftUI
 import RealityKit
 
+
+
+
 struct NightVison : View {
+    @State private var amount = 0.3
+    
+    func increase() {
+        if (amount > 0.8){
+            amount = amount - 0.05
+        } else {
+            amount = amount + 0.05
+        }
+    }
+    func decrease(){
+        if (amount < 0.1) {
+            amount = amount + 0.05
+        } else {
+            amount = amount - 0.05
+        }
+    }
+    
     var body: some View {
         return ZStack{
             ARViewContainer().edgesIgnoringSafeArea(.all)
             Rectangle()
                 .background(Rectangle().foregroundColor(Color.green))
-                .opacity(0.3)
+                .opacity(amount)
                 .ignoresSafeArea()
             VStack{
                 Spacer()
-                Button("Change Power") {
+                HStack {
+                    Spacer()
+                    
+                    Button("Power+") {
+                        increase()
+                    }
+                    Spacer()
+                    
+                    Button("Power-") {
+                        decrease()
+                    }
+                    Spacer()
                     
                 }
             }
-                
-
+            
+            
         }
     }
 }
